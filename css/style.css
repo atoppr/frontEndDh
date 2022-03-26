@@ -1,14 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
 /* dasdsa */
 body{
     background: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
 }
 
-#top{
+.top{
     background-color: #222222;
     color:#F3F3F3;
+    display: flex;
+    justify-content: space-between;
 }
-#menu{
+
+.title {
+    margin-left: 41px;
+    margin-top: 15px;
+}
+
+.title img {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin: 
+}
+
+
+header div #gato {
+    margin-right: 3px;
+}
+
+header div #perro{
+    margin-left: 4px;
+    margin-top: 11px;
+}
+
+header{
     background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 40px;
+    font-size: 20px;
+    font-weight: 700;}
+
+header div{
+    display: flex;
+
+}
+
+header div h1 {
+    color:#3C2313
+}
+
+header div h1 span {
+    color: #FFFFFF;
+}
+
+header nav ul{
+    display: flex;
+    text-decoration: none;
+    font-weight: 400;
+    list-style-type: none;
+    color: #FFFFFF;
+    margin: 24px;
+
+}
+header nav ul li {
+    margin-right: 20px;
+}
+
+
+
+main section.banner {
+    height: calc(100vh - 62px);
+    background-image: url(../img/bowl.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section.banner {
+
+}
+
+.container-flex {
+    display: ;
 }
 
 #placer p{
@@ -19,14 +102,20 @@ body{
     background-color: #F0A83E;
 }
 
+#bowl {
+    margin: 0 0;
+}
+
 footer{
     background-color: #3C2313;
     color: white;
 }
 footer p {
-    color: ##3C2313;
+    color: #3C2313;
 }
 #rights{
     color: ##3C2313;
     background-color: #222222;
 }
+
+/* 4-6, 8-10, 12-15, 17-19
